@@ -25,6 +25,9 @@ export const en = {
   "nav.settings": "Language and access body",
   "nav.language": "Language",
   "nav.accessBody": "Access body",
+  "nav.extraRules": "National rules added to the EHDS baseline",
+  "nav.extraRulesNone": "No national rules beyond the EHDS baseline.",
+  "nav.article": "Art.",
   "nav.country.at": "Austria",
   "nav.country.de": "Germany",
   "nav.loading": "Loading…",
@@ -93,7 +96,7 @@ export const en = {
     "Measured on 30 October 2026 against the live backend, with consistent results over three runs. These are test requests, not evidence of performance on all real-world requests or a guarantee of future results.",
   "landing.aiDisclosure.title": "Rules decide.\nPeople remain responsible.",
   "landing.aiDisclosure.p1":
-    "Deterministic rules decide the outcome, and a fixed program calculates the statistics. No AI is used today. If enabled later, AI can only make outcomes stricter. Patient data never goes to AI.",
+    "Deterministic rules decide the outcome, and a fixed program calculates the statistics. An optional AI step only rewords unclear definitions; such requests are always held for a person, and AI can only make outcomes stricter. Patient data never goes to AI.",
   "landing.aiDisclosure.callout":
     "This is decision support for Health Data Access Body staff. Final decisions rest with the HDAB.",
   "landing.faq.title": "Before you begin",
@@ -385,7 +388,7 @@ export const en = {
     'Negated phrases, such as "we will not use this for marketing", do not trigger a rule. Unclear purposes or unreadable definitions are held for staff review. Staff approve or override with a written reason recorded in an audit log. The same safeguards still apply.',
   "hwd.rules.title": "Versioned rules and legal text",
   "hwd.rules.text":
-    "The rules live in decision_rules.json, version 1.0.1, with 14 rules. Every decision records the rule id and rules version.",
+    "The rules live in decision_rules.json, version 1.0.3, with 15 rules. Every decision records the rule id and rules version.",
   "hwd.rules.quotes":
     "Legal quotes are verbatim from Regulation (EU) 2025/327. All 42 stored paragraphs were checked word for word against the official text.",
   "hwd.statistics.title": "Statistics and the small-cell rule",
@@ -409,7 +412,7 @@ export const en = {
     "These are test requests on synthetic data, not real applications. The measurements describe these tests and do not guarantee outcomes for future requests.",
   "hwd.ai.title": "The role of AI",
   "hwd.ai.text":
-    "No AI decides today. An optional AI step may only make outcomes stricter and never sees patient data.",
+    "No AI decides. An optional AI step only rewords unclear definitions; such requests are always held for staff, so it can only make outcomes stricter, and the AI never sees patient data.",
   "hwd.explore": "Explore the 10 sample requests",
 
   // ── ExamplesGallery ──────────────────────────────────────────────────────────

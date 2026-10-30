@@ -14,6 +14,9 @@ export const de: { [K in keyof EnDict]: string } = {
   "nav.settings": "Sprache und Zugangsstelle",
   "nav.language": "Sprache",
   "nav.accessBody": "Zugangsstelle",
+  "nav.extraRules": "Nationale Regeln zusätzlich zum EHDS-Standard",
+  "nav.extraRulesNone": "Keine nationalen Regeln über den EHDS-Standard hinaus.",
+  "nav.article": "Art.",
   "nav.country.at": "Österreich",
   "nav.country.de": "Deutschland",
   "nav.loading": "Wird geladen…",
@@ -82,7 +85,7 @@ export const de: { [K in keyof EnDict]: string } = {
     "Gemessen am 30. Oktober 2026 mit dem Live-Backend, mit einheitlichen Ergebnissen über drei Durchläufe. Dies sind Testanträge, keine Aussage über die Leistung bei realen Anträgen oder Garantie für zukünftige Ergebnisse.",
   "landing.aiDisclosure.title": "Regeln entscheiden.\nMenschen bleiben verantwortlich.",
   "landing.aiDisclosure.p1":
-    "Deterministische Regeln bestimmen das Ergebnis, ein festes Programm berechnet die Statistiken. Heute wird keine KI eingesetzt. Falls später aktiviert, kann KI Ergebnisse nur strenger machen. Patientendaten gelangen nie zur KI.",
+    "Deterministische Regeln bestimmen das Ergebnis, ein festes Programm berechnet die Statistiken. Ein optionaler KI-Schritt formuliert nur unklare Definitionen um; solche Anträge werden immer von einer Person geprüft, und KI kann Ergebnisse nur strenger machen. Patientendaten gelangen nie zur KI.",
   "landing.aiDisclosure.callout":
     "Dies ist Entscheidungsunterstützung für Mitarbeitende der Zugangsstelle für Gesundheitsdaten (HDAB). Die endgültige Entscheidung liegt bei der HDAB.",
   "landing.faq.title": "Bevor Sie beginnen",
@@ -398,7 +401,7 @@ export const de: { [K in keyof EnDict]: string } = {
     "Verneinte Formulierungen wie \u201EWir werden dies nicht für Werbung verwenden\u201C lösen keine Regel aus. Unklare Zwecke oder unleserliche Definitionen werden zur Mitarbeiterprüfung zurückgehalten. Das Personal genehmigt oder überschreibt mit einem schriftlichen Grund, der im Prüfungsprotokoll festgehalten wird. Dieselben Schutzmaßnahmen gelten weiterhin.",
   "hwd.rules.title": "Versionierte Regeln und Rechtstexte",
   "hwd.rules.text":
-    "Die Regeln sind in decision_rules.json, Version 1.0.1, mit 14 Regeln enthalten. Jede Entscheidung erfasst die Regel-ID und die Regelversion.",
+    "Die Regeln sind in decision_rules.json, Version 1.0.3, mit 15 Regeln enthalten. Jede Entscheidung erfasst die Regel-ID und die Regelversion.",
   "hwd.rules.quotes":
     "Rechtszitate sind Originaltext aus der Verordnung (EU) 2025/327. Alle 42 gespeicherten Absätze wurden Wort für Wort mit dem offiziellen Text abgeglichen.",
   "hwd.statistics.title": "Statistiken und die Unterdrückungsregel",
@@ -422,7 +425,7 @@ export const de: { [K in keyof EnDict]: string } = {
     "Dies sind Testanträge mit synthetischen Daten, keine realen Anträge. Die Messungen beschreiben diese Tests und garantieren keine Ergebnisse für zukünftige Anträge.",
   "hwd.ai.title": "Die Rolle von KI",
   "hwd.ai.text":
-    "Heute entscheidet keine KI. Ein optionaler KI-Schritt darf Ergebnisse nur strenger machen und sieht keine Patientendaten.",
+    "Keine KI entscheidet. Ein optionaler KI-Schritt formuliert nur unklare Definitionen um; solche Anträge werden immer von Mitarbeitenden geprüft, sie kann Ergebnisse also nur strenger machen, und die KI sieht keine Patientendaten.",
   "hwd.explore": "Die 10 Beispielanträge erkunden",
 
   // ── ExamplesGallery ──────────────────────────────────────────────────────────
